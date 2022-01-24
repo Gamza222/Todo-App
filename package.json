@@ -1,6 +1,9 @@
 {
   "name": "quote-machine",
   "version": "0.1.0",
+  "homepage": "https://gitname.github.io/react-gh-pages",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
