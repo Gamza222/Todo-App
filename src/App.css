@@ -1,0 +1,45 @@
+
+:root {
+  --colored-back: rgb(214, 214, 214);
+}
+
+body {
+  overflow: hidden;
+}
+.App {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(128, 128, 128);
+    display: grid;
+    place-items: center;
+    
+}
+
+#app-container {
+  width: clamp(20em, 50%, 40em);  
+  height: 80%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--colored-back);
+  box-shadow: 0 0 10px 1px rgb(83, 47, 69);
+  padding: 32px 0 ;
+}
+
+#app-container_todo {
+    width: 80%;
+    margin: 32px 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: auto; 
+}
+
+#app-container_header {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+
+
