@@ -4,7 +4,7 @@
 }
 
 body {
-  overflow: hidden;
+  overflow: auto;
 }
 .App {
     height: 100vh;
