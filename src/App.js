@@ -14,7 +14,7 @@ function App() {
   
       <div id="app-container">
      
-        <h1 id='app-container_header'>to do app</h1>
+        <h1 id='app-container_header'>Макс, Ник и Колян салам!</h1>
       
         
         {/* todo-list */}

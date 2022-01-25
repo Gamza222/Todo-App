@@ -5,11 +5,12 @@
 
 body {
   overflow: auto;
+  background-color: rgb(128, 128, 128);
 }
 .App {
     height: 100vh;
     width: 100%;
-    background-color: rgb(128, 128, 128);
+    
     display: grid;
     place-items: center;
     
@@ -38,6 +39,7 @@ body {
 
 #app-container_header {
   text-transform: uppercase;
+  text-align: center;
   color: rgb(0, 0, 0);
 }
 
