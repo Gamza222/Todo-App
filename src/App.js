@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import MetaTags from 'react-meta-tags',
+
 import Input from './components/input';
 import TodoItem from './components/TodoItem';
 import {useSelector} from 'react-redux';
@@ -11,9 +11,7 @@ function App() {
   const todoList = useSelector(selectTodoList)
   return (
     <div className="App">
-      <MetaTags>
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-      </MetaTags>
+  
       <div id="app-container">
      
         <h1 id='app-container_header'>to do app</h1>
