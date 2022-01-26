@@ -1,12 +1,12 @@
 
 :root {
-  --colored-back: rgb(214, 214, 214);
+  --colored-back: rgb(232, 234, 237);
 }
 
 body {
-  font-family: 'Anton', sans-serif;
+  
   overflow: auto;
-  background-color: rgb(128, 128, 128);
+  background-color: rgb(168, 173, 182);
 }
 .App {
     height: 100vh;
@@ -28,7 +28,7 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: var(--colored-back);
-  box-shadow: 0 0 10px 1px rgb(83, 47, 69);
+  box-shadow: 0 0 10px 1px rgb(109, 109, 109);
   padding: 32px 0 ;
 }
 
@@ -38,14 +38,15 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    overflow: auto; 
+
 }
 
 #app-container_header {
   text-transform: uppercase;
   text-align: centergit;
-  font-weight: 100;
+  font-weight: 400;
   color: white;
+  
 }
 
 

@@ -12,6 +12,7 @@ input:focus{
 }
 #input-textarea{
     background: none;
+   
     border: none;
     margin-left: 1em;
     flex: 1;
@@ -32,13 +33,18 @@ input:focus{
 
 @media screen and (max-width : 1050px) {
     #app-container {
-      width: 90%;
+    max-width: 1050px;
+    width: 90%;
     }
   }
   
   @media screen and (min-width: 720px), screen and (min-height: 1000px) {
     #app-container_header {
       font-size: 3em;
+    }
+
+    #input-textarea {
+        font-size: 1.8em;
     }
     
     #input-button {
