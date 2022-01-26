@@ -11,12 +11,9 @@ function App() {
   const todoList = useSelector(selectTodoList)
   return (
     <div className="App">
+      <h1 id='app-container_header'>To-Do List</h1>
   
       <div id="app-container">
-     
-        <h1 id='app-container_header'>Макс, Ник и Колян салам!</h1>
-      
-        
         {/* todo-list */}
         <div id="app-container_todo">
           { 

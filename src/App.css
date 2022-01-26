@@ -4,6 +4,7 @@
 }
 
 body {
+  font-family: 'Anton', sans-serif;
   overflow: auto;
   background-color: rgb(128, 128, 128);
 }
@@ -12,13 +13,16 @@ body {
     width: 100%;
     
     display: grid;
+    grid-template-rows: 10% 85%;
     place-items: center;
     
 }
 
 #app-container {
-  width: clamp(20em, 50%, 40em);  
-  height: 80%;
+  
+  width: clamp(19em, 50%, 60em);  
+  height: 100%;
+  box-sizing: border-box;
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -39,9 +43,11 @@ body {
 
 #app-container_header {
   text-transform: uppercase;
-  text-align: center;
-  color: rgb(0, 0, 0);
+  text-align: centergit;
+  font-weight: 100;
+  color: white;
 }
+
 
 
 
