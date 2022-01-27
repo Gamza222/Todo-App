@@ -4,6 +4,8 @@ input:focus{
 .input{
     height: 3em;
     width: 80%;
+    box-sizing: border-box;
+    padding: 0.5em;
     border-radius: 12px;
     background-color: white;
     display: flex;
@@ -31,44 +33,3 @@ input:focus{
     background-color: rgb(139, 139, 139)
 }
 
-@media screen and (max-width : 1050px) {
-    #app-container {
-    max-width: 1050px;
-    width: 90%;
-    }
-  }
-  
-  @media screen and (min-width: 720px), screen and (min-height: 1000px) {
-    #app-container_header {
-      font-size: 3em;
-    }
-
-    #input-textarea {
-        font-size: 1.8em;
-    }
-    
-    #input-button {
-      font-size: 1.5em;
-      height: 1.8em;
-      width: 4em;
-    }
-    .input {
-      height: 4em;
-    }
-  }
-
-  @media screen and (max-width : 300px) {
-    .input {
-        width: 94%;
-    }
-    #app-container {
-        padding: 11px 0;
-    }
-  }
-  
-  @media screen and (min-height : 1200px) {
-      .App {
-          min-width: 770px;
-      }
-
-  }
