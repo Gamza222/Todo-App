@@ -30,16 +30,16 @@
     }
 
     #input-textarea {
-        font-size: 20px;
+        font-size: 1.8em;
     }
     
     #input-button {
-      font-size: 1.3em;
-      height: 1.4em;
+      font-size: 1.5em;
+      height: 1.8em;
       width: 4em;
     }
     .input {
-      height: 3em;
+      height: 4em;
     }
   }
 

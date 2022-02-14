@@ -15,12 +15,14 @@ body {
     display: grid;
     grid-template-rows: 10% 85%;
     place-items: center;
+    min-width: 300px;
+    min-height: 400px;
     
 }
 
 #app-container {
   
-  width: clamp(19em, 50%, 60em);  
+  width: clamp(19em, 50%, 40em);  
   height: 100%;
   box-sizing: border-box;
   border-radius: 12px;
@@ -61,12 +63,6 @@ body {
     #app-container_header {
       font-size: 3em;
     }
-    #app-container_todo-item {
-        height: 2.2em;
-
-        font-size: 2em;
-
-    }
 
     #input-textarea {
         font-size: 1.8em;
@@ -103,9 +99,8 @@ body {
       font-size: 3em;
     }
     #app-container_todo-item {
-        height: 2.2em;
 
-        font-size: 2em;
+        font-size: 15px;
 
     }
 

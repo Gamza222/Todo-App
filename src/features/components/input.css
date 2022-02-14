@@ -27,7 +27,6 @@ input:focus{
     border-radius: 8px;
     height: 2em;
     width: 4em;
-    min-width: 40px;
 }
 
 #input-button:active {
